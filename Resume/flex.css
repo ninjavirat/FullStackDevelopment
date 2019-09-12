@@ -1,0 +1,43 @@
+#container{
+    height: 75vh;
+    width: 75vh;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+#div1{
+    background-color: cyan;
+    order: 20;
+    /*order: -1;*/
+}
+
+
+#div2{
+    background-color: red;
+    order: 14;
+}
+
+
+#div3{
+    background-color: grey;
+    order: 31;
+    /*order: 5;*/
+}
+
+#div4{
+    background-color: maroon;
+    order: 6;
+  /* order: -1;*/
+}
+#div5{
+    background-color: orange;
+    order: 6;
+  /* order: -1;*/
+}
